@@ -39,7 +39,7 @@ func SqrtUsingEpsilon(x float64) (int, float64) {
 	return iteration, result
 }
 
-func m1ain() {
+func runEx1() {
 	var x float64 = math.Pow(16719, 2)
 	fmt.Printf("Ater 10 iterations: %v\n", SqrtUsing10Iterations(x))
 	numIterations, calculatedValue := SqrtUsingEpsilon(x)
