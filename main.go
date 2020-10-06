@@ -6,4 +6,5 @@ func main() {
 	runEx3()
 	runEx4()
 	runEx5()
+	runEx6()
 }
