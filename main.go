@@ -7,4 +7,5 @@ func main() {
 	runEx4()
 	runEx5()
 	runEx6()
+	runEx7()
 }
