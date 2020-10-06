@@ -9,4 +9,5 @@ func main() {
 	runEx6()
 	runEx7()
 	runEx8()
+	runEx9()
 }
