@@ -10,4 +10,5 @@ func main() {
 	runEx7()
 	runEx8()
 	runEx9()
+	runEx10()
 }
