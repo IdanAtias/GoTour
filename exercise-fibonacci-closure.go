@@ -4,19 +4,13 @@ import "fmt"
 
 // fibonacci is a function that returns
 // a function that returns an int.
+// 0 1 1 2 3 5 8 13 21 34 ...
 func fibonacci() func() int {
-	isFirst := true
-	prevNum := 0
-	currNum := 1
+	currNum := 0
+	nextNum := 1
 	return func() int {
-		if isFirst {
-			// first Fib number is 0
-			isFirst = false
-			return 0
-		}
-		result := currNum + prevNum
-		prevNum = currNum
-		currNum = result
+		result := currNum
+		currNum, nextNum = nextNum, result+nextNum
 		return result
 	}
 }
